@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -A HattsParisDemoBot/1.0 'https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=shoemaker%20workshop%20leather%20craftsman&srnamespace=6&format=json&srlimit=10')",
+      "Read(//private/tmp/pw-check/**)",
+      "Bash(node verify.js)",
+      "Read(//tmp/pw-check/**)",
+      "Bash(node verify2.js)",
+      "Bash(node verify3.js)",
+      "Bash(node verify4.js)",
+      "Bash(node verify5.js)",
+      "Bash(curl -s -A HattsParisDemoBot/1.0 'https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=elegant%20man%20suit%20dramatic%20lighting%20studio&srnamespace=6&format=json&srlimit=10')",
+      "Bash(curl -s -o g1.jpg \"https://images.unsplash.com/photo-1556761175-4b46a572b786?w=500\")",
+      "Bash(curl -s -o g2.jpg \"https://images.unsplash.com/photo-1494059980473-813e73ee784b?w=500\")",
+      "Bash(curl -s -o g3.jpg \"https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=500\")"
+    ],
+    "additionalDirectories": [
+      "/tmp/pw-check",
+      "/private/tmp/pw-check"
+    ]
+  }
+}

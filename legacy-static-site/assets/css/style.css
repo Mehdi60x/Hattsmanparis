@@ -692,7 +692,8 @@ footer {
     color: white;
 }
 
-/* Media Queries for Responsiveness */
+
+/* Media Queries for Responsive */
 
 @media (max-width: 1200px) {
     .Nav-bar {
